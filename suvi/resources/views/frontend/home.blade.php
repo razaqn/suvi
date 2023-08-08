@@ -51,22 +51,22 @@
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-            @include('components.cartProductCard.blade')
-            @include('components.cartProductCard.blade')
-            @include('components.cartProductCard.blade')
-            @include('components.cartProductCard.blade')
-            @include('components.cartProductCard.blade')
+            @include('components.verticalProductCard.blade')
+            @include('components.verticalProductCard.blade')
+            @include('components.verticalProductCard.blade')
+            @include('components.verticalProductCard.blade')
+            @include('components.verticalProductCard.blade')
         </div>
 
         <h1 class="mb-[12px] text-[24px] text-[#1F1F1F] ops font-semibold">Direkomendasikan Untuk Anda </h1>
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-            @include('components.cartProductCard.blade')
-           @include('components.cartProductCard.blade')
-           @include('components.cartProductCard.blade')
-           @include('components.cartProductCard.blade')
-           @include('components.cartProductCard.blade')
+           @include('components.verticalProductCard.blade')
+           @include('components.verticalProductCard.blade')
+           @include('components.verticalProductCard.blade')
+           @include('components.verticalProductCard.blade')
+           @include('components.verticalProductCard.blade')
 
         </div>
     </div>
