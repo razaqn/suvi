@@ -4,8 +4,8 @@
 @section('content')
     <div class="mx-[30px] lg:mx-[136px]  mt-[136px] mt-[88px] mt-[136px]">
         <div class="flex justify-between mb-[24px]">
-            <h1 class=" text-[#1F1F1F] text-[30px] font-[600] ops">Selamat Siang, Abdur Razaq</h1>
-            <p class="text-[#FF7E00] text-[18px] font-[400]">Kelas saya</p>
+            <h1 class=" text-[#1F1F1F] text-[20px] md:text-[25px] lg:text-[30px] font-[600] ops">Selamat Siang, Abdur Razaq</h1>
+            <p class="text-[#FF7E00]  text-[14px] md:text-[18px] font-[400]">Kelas saya</p>
         </div>
 
         <div class="py-[24px] border rounded-[4px]">
@@ -47,27 +47,28 @@
 
 
 
-        <h1 class="mb-[12px] text-[24px] text-[#1F1F1F] ops font-semibold">Kelas Populer </h1>
+        <h1 class="mb-[12px]text-[24px] text-[#1F1F1F] ops font-semibold">Kelas Populer </h1>
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-            @include('components.verticalProductCard.blade')
-            @include('components.verticalProductCard.blade')
-            @include('components.verticalProductCard.blade')
-            @include('components.verticalProductCard.blade')
-            @include('components.verticalProductCard.blade')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
         </div>
 
         <h1 class="mb-[12px] text-[24px] text-[#1F1F1F] ops font-semibold">Direkomendasikan Untuk Anda </h1>
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-           @include('components.verticalProductCard.blade')
-           @include('components.verticalProductCard.blade')
-           @include('components.verticalProductCard.blade')
-           @include('components.verticalProductCard.blade')
-           @include('components.verticalProductCard.blade')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
+            @include('components.product_card')
 
         </div>
     </div>
 @endsection
+
