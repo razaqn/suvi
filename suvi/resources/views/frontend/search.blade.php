@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.front')
 
 @section('content')
 <div class="searchpage-container">

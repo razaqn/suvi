@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.front')
 
 @section('content')
     <div class="mx-[30px] lg:mx-[136px]  mt-[136px] mt-[88px] mt-[136px]">
@@ -51,22 +50,22 @@
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
         </div>
 
         <h1 class="mb-[12px] text-[24px] text-[#1F1F1F] ops font-semibold">Direkomendasikan Untuk Anda </h1>
         <hr class="mb-[16px]">
 
         <div class="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-1">
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
-            @include('components.product_card')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
+            @include('components.productCard')
 
         </div>
     </div>
