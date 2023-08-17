@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layouts.front')
 
 @section('content')
 <img src="{{ asset('images/left-bub.png') }}" class="z-[-100]	absolute left-[-20.5rem]" alt="">
