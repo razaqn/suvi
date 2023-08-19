@@ -3,7 +3,7 @@
 
 @section('content')
     <div>
-        <div class="mx-[30px] lg:mx-[175px]  mt-[4rem] ">
+        <div class="mx-[30px] lg:mx-[175px]  mt-[2rem] ">
             <div class="flex flex-col md:flex-row justify-between mb-[85px]">
                 <div class="w-[350px]">
                     <h1 class="text-[#1F1F1F] text-[42px] font-extrabold	mb-[14px] ops">LOREM IPSUM DOLOT SITAMET</h1>
