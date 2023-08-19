@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <div style="z-index: -2" class="bg-[#FF7E00] mt-[-6rem] mb-[64px] relative pb-[22px]">
+    <div style="z-index: -2" class="bg-[#FF7E00] mt-[-8.5rem] mb-[64px] relative pb-[22px]">
         <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] top-[37px] left-[0px] "
             src="{{ asset('images/left-bub-main.png') }}" alt="">
         <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] right-[80px] bottom-[35px]"
