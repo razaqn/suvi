@@ -97,14 +97,16 @@
             <p class="text-xl ops font-bold mt-8 mb-6">Ulasan</p>
             <div class="grid grid-cols-1 lg:grid-cols-4 w-full">
 
-                @include('components.review')
-                @include('components.review')
-                @include('components.review')
-                @include('components.review')
+                @include('components.testimoniCard')
+                @include('components.testimoniCard')
+                @include('components.testimoniCard')
+                @include('components.testimoniCard')
             </div>
 
             <p class="mt-[35px] ops font-bold text-[20px] mb-8">Kursus serupa</p>
-            @include('components.cartCourseDetail')
+            @include('components.horizontalProductCard')
+            @include('components.horizontalProductCard')
+            @include('components.horizontalProductCard')
 
         </div>
 
