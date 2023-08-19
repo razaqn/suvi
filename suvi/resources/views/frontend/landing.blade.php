@@ -1,8 +1,9 @@
 @extends('layouts.front')
 
+
 @section('content')
     <div>
-        <div class="mx-[30px] lg:mx-[175px]  mt-[136px] mt-[88px]">
+        <div class="mx-[30px] lg:mx-[175px]  mt-[4rem] ">
             <div class="flex flex-col md:flex-row justify-between mb-[85px]">
                 <div class="w-[350px]">
                     <h1 class="text-[#1F1F1F] text-[42px] font-extrabold	mb-[14px] ops">LOREM IPSUM DOLOT SITAMET</h1>
@@ -12,34 +13,41 @@
                         <p class="ops font-[700] text-[14px] text-white"><a href="">Edit Profil</a></p>
                     </div>
                 </div>
-                <img class="w-[256px] h-[256px] mt-[40px] mt-[0px]" src="{{ asset('images/landing-page-first.png') }}" alt="">
+                <img class="w-[256px] h-[256px] mt-[40px] mt-[0px]" src="{{ asset('images/landing-page-first.png') }}"
+                    alt="">
             </div>
 
 
         </div>
-
-        <div class="bg-[#FF7E00] mb-[40px]">
-            <div class="mx-[30px] lg:mx-[175px]  mt-[136px] mt-[88px]">
+        <div style="z-index: -2" class="mt-[80px] bg-[#FF7E00] mt-[-6rem] mb-[64px] relative pb-[22px]">
+            <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] top-[37px] left-[0px] "
+                src="{{ asset('images/left-bub-main.png') }}" alt="">
+            <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] right-[80px] bottom-[35px]"
+                src="{{ asset('images/right-bub-main.png') }}" alt="">
+            <div class="mx-[30px] lg:mx-[136px]  mt-[136px] mt-[88px]">
                 <h1 class="ops text-[34px] font-[700] text-center text-white pt-[53px] mb-[5px]">Asah Skill Anda</h1>
                 <p class="ops text-[20px] font-[400] mb-[22px] text-center text-white">Kami menyediakan kursus” yang telah
                     di buat oleh mentor mentor yang berpengalaman</p>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-[22px] justify-items-center pb-[56px]">
-                    <div class="w-[172px] h-[172px] bg-white rounded-[5px]">
+
+                <div
+                    class="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4  mt-[22px]  pb-[56px] px-[20%]">
+                    <div class="w-full h-[172px] mr-[10px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-[172px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full mr-[100px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-[172px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full mr-[10px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-[172px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full mr-[10px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="mx-[30px] lg:mx-[175px]  mt-[136px] mt-[88px] mt-[0px]">
             <h1 class="text-[#1F1F1F] font-[600] text-center text-[32px] ops">Instruktur Kami</h1>
@@ -84,9 +92,11 @@
         <div class="bg-[#FF7E00] mb-[40px]">
             <div class="mx-[30px] lg:mx-[175px]  mt-[136px] mt-[88px] mt-[0px] mt-[96px]">
                 <h1 class="ops text-[32px] font-[700] text-center text-white pt-[24px] mb-[5px]">Partner Kami</h1>
-                <p class="ops text-[20px] font-[400] mb-[39px] text-center text-white">Kami Memiliki Partner Sebagai Berikut</p>
+                <p class="ops text-[20px] font-[400] mb-[39px] text-center text-white">Kami Memiliki Partner Sebagai Berikut
+                </p>
 
-                <div class="grid grid-cols-2 xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-3 gap-9 mt-[22px] justify-items-center pb-[56px]">
+                <div
+                    class="grid grid-cols-2 xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-3 gap-9 mt-[22px] justify-items-center pb-[56px]">
                     <div class="w-full h-[74px] bg-black rounded-[4px]">
 
                     </div>
