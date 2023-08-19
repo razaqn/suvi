@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-<div class="searchpage-container">
+<div class="mx-[30px] xl:mx-[10%] lg:mx-[96px] md:mx-[100px] sm:mx-[86px]">
         <h1 class="mb-[12px] text-[24px] text-[#1F1F1F] ops font-semibold">18 Hasil untuk “Photoshop” </h1>
         <hr class="mb-[16px]">
 
