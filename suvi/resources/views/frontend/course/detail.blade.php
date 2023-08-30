@@ -1,5 +1,7 @@
 @extends('layouts.front')
 
+@section('content')
+
 <div style="z-index: -2" class="bg-[#FF7E00] mt-[-3rem] py-9 pb-16 px-20 relative">
         <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] top-[0px] left-[0px] "
             src="{{ asset('images/left-bub-main.png') }}" alt="">
@@ -154,5 +156,5 @@
 
     </div>
 
-@section('content')
+
 @endsection
