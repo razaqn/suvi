@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="basis-1/3">
-                <div class="md:ml-[24px] py-[14px] px-[17.5px] shadow-lg mt-[36px]">
+                <div class="sticky top-[120px] h-fit md:ml-[24px] py-[14px] px-[17.5px] shadow-lg mt-[36px]">
 
                     <p class="ops text-[16px] font-bold text-[#525252] mb-[24px]">Harga</p>
 
