@@ -35,7 +35,7 @@
 
                 <p
                     class="inline-block mb-[8.5px] rounded-[3.5px] bg-[#0081FF] py-[10px] px-[33px] ops font-[700] text-[14px] text-white">
-                    Edit Profil</p>
+                    Edit Foto</p>
 
                 <p class="text-[12px] font-[300] ops text-[#737373]">Ukuran maksimal file 2 mb</p>
             </div>
