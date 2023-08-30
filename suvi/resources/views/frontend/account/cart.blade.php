@@ -9,7 +9,7 @@
                 @include('components.orderDetail')
             </div>
             <div class="basis-1/3">
-                 <div class=" py-[14px] md:ml-[24px] md:w-[292px]  px-[17.5px] shadow-lg mt-[36px]">
+                 <div class="sticky top-[120px] h-fit py-[14px] md:ml-[24px] md:w-[292px]  px-[17.5px] shadow-lg mt-[36px]">
 
                     <p class="ops text-[16px] font-bold text-[#525252] mb-[24px]">Harga</p>
 
