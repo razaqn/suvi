@@ -3,7 +3,7 @@
 
 @section('content')
    <div class="mx-[27px] grid grid-cols-1  lg:grid-cols-5">
-        <div class="px-[16px] bg-white shadow-lg">
+        <div class="px-[16px] bg-white shadow-lg h-[600px] overflow-y-auto	">
             <div class="flex items-center">
                 @include('components.icon.menuCoursePageIcon')
                 <p class="ml-[60px]">Kontent Kursus</p>
@@ -14,9 +14,13 @@
             </div>
 
             @include('components.bagianCourse', ['id' => '1'])
+            <hr class="mx-[-16px]">
             @include('components.bagianCourse', ['id' => '2'])
+            <hr class="mx-[-16px]">
             @include('components.bagianCourse', ['id' => '3'])
+            <hr class="mx-[-16px]">
             @include('components.bagianCourse', ['id' => '4'])
+            <hr class="mx-[-16px]">
 
             <script>
                 $(document).ready(function() {
