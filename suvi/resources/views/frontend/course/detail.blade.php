@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div style="z-index: -2" class="bg-[#FF7E00] mt-[-3rem] py-9 pb-16 px-20 relative">
+<div style="z-index: -2" class="bg-[#FF7E00] mt-[-3rem] py-9 pb-16 px-20 relative">
         <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] top-[0px] left-[0px] "
             src="{{ asset('images/left-bub-main.png') }}" alt="">
         <img style="z-index: -1" class="absolute my-[-36px] mx-[-80px] right-[80px] bottom-[0px]"
@@ -112,7 +112,7 @@
 
         </div>
 
-        <div class="col-span-2 xl:col-span-1  lg:ml-[24px] lg:w-[110%] bg-white p-6 lg:mt-[-10rem] sticky top-[120px] h-fit">
+        <div class="col-span-2 xl:col-span-1  lg:ml-[24px] lg:w-[110%] shadow-md bg-white p-6 lg:mt-[-10rem] sticky top-[120px] h-fit">
             <p class="ops font-[700] mb-[13px]">Ultimate Adobe Photoshop Training: From Beginner to Pro</p>
             <div class="flex items-center">
                 <p class="text-[20px] text-[#FF7E00] font-[700] mr-[8px]">Rp150.000</p>
@@ -137,7 +137,7 @@
                 <p class="text-[14px] ops ml-[12px]">Bahasa Indonesia</p>
             </div>
             <div class="flex mb-[20px] items-center">
-                <div class="h-fit sm:mt-[0px] mr-[8px] md:mt-[15px] rounded-[3.5px] bg-[#FF7E00] py-[16px] px-[42px]">
+                <div class="h-fit sm:mt-[0px] mr-[8px] md:mt-[0px] mt-[15px] rounded-[3.5px] bg-[#FF7E00] py-[16px] px-[42px]">
                     <p class=" ops font-[700] text-[14px] text-white"><a href="">Beli Kursus Ini</a></p>
                 </div>
                 <div class="h-fit rounded-[4px] p-[14px] border border-[2px] border-[#FF7E00]">
