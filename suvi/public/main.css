@@ -1,3 +1,81 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+* {
+    font-family: "SF Pro Display", sans-serif;
+
+}
+
+
+
+.ops {
+    font-family: "Open Sans", sans-serif;
+}
+
+.mts {
+    font-family: "Montserrat", sans-serif;
+}
+
+.custom-container {
+    margin-left: 176px;
+    margin-right: 176px;
+    margin-top: 152px;
+}
+
+.searchpage-container {
+    margin-left: 97px;
+    margin-right: 97px;
+    margin-top: 136px;
+}
+
+.caripage-container {
+    margin-left: 202px;
+    margin-right: 98px;
+    margin-top: 150px;
+}
+
+.profile-container {
+    margin-top: 136px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.landingpage-container {
+    margin-top: 171px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.signup-container {
+    margin-left: 454px;
+    margin-right: 454px;
+    margin-top: 150px;
+}
+
+.profil-rgba {
+    background: rgba(61, 158, 251, 0.79);
+}
+
+.form-input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+}
+
+.form-input:focus {
+  border-color: #FF7E00;
+
+}
+
+.center {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .search-wrapper {
     width: 760px;
 }
