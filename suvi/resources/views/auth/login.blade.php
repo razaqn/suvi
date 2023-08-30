@@ -1,8 +1,8 @@
 @extends('layouts.front')
 
 @section('content')
-<img src="{{ asset('images/left-bub.png') }}" class="z-[-100]	absolute left-[-20.5rem]" alt="">
-    <img src="{{ asset('images/right-bub.png') }}" class="z-[-100]	absolute right-[-19.5rem]" alt="">
+<img src="{{ asset('images/left-bub.png') }}" class="hidden md:block z-[-100]	absolute left-[-20.5rem]" alt="">
+    <img src="{{ asset('images/right-bub.png') }}" class="hidden md:block z-[-100]	absolute right-[-19.5rem]" alt="">
     <div class="xl:mx-[30.5%] lg:mx-[20%] md:mx-[19%] sm:mx-[15%] mx-[10%]">
         <h1 class="text-[30px] ops font-[600] mb-[22px]">Sign In</h1>
         <p class="text-[16px] font-[400] ops  mb-[35px]">If you dont have an account, you can <span
