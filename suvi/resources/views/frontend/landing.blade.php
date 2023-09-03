@@ -9,8 +9,9 @@
                     <h1 class="text-[#1F1F1F] text-[42px] font-extrabold	mb-[14px] ops">LOREM IPSUM DOLOT SITAMET</h1>
                     <p class="ops text-[14px] text-[#1F1F1F] font-[400] mb-[32px] w-[80%]">LOREM IPSUM DOLOT SITAMET
                         AWKOKAWOKAWOK LMAO AMAT ASDASD</p>
-                    <div class="inline-block rounded-[3.5px] bg-[#0081FF] py-[10px] px-[33px]">
-                        <p class="ops font-[700] text-[14px] text-white"><a href="">Edit Profil</a></p>
+                    <div data-modal-target="defaultModal" data-modal-toggle="defaultModal"
+                        class="cursor-pointer inline-block rounded-[3.5px] bg-[#0081FF] py-[10px] px-[33px]">
+                        <p class="ops font-[700] text-[14px] text-white">Get Started</p>
                     </div>
                 </div>
                 <img class="w-[256px] h-[256px] mt-[40px] mt-[0px]" src="{{ asset('images/landing-page-first.png') }}"
@@ -31,17 +32,17 @@
 
 
                 <div
-                    class="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4  mt-[22px]  pb-[56px] px-[20%]">
-                    <div class="w-full h-[172px] mr-[10px] bg-white rounded-[5px]">
+                    class="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4  mt-[22px] org sm:px-[5%] md:px-[10%]  xl:px-[20%] pb-[56px] ">
+                    <div class="w-full  h-[172px] mr-[10px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-full mr-[100px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full  mr-[100px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-full mr-[10px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full  mr-[10px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
-                    <div class="w-full mr-[10px] h-[172px] bg-white rounded-[5px]">
+                    <div class="w-full  mr-[10px] h-[172px] bg-white rounded-[5px]">
 
                     </div>
                 </div>
@@ -54,14 +55,102 @@
             <p class="font-[400] text-[20px] text-[#555] ops text-center mt-[5px] mb-[25px]">kita juga memiliki beberapa
                 instruktur yang berpengalaman dan bersertifikasi nasional</p>
 
-            <div class="flex flex-col sm:flex-row mx-[20px]">
-                <div class="bg-black w-full h-[202px] mr-[0px] mb-[20px] sm:mb-[0px] sm:mr-[12px]">
-
+                <div class="px-[20px] w-full relative flex items-center justify-center">
+                    <button aria-label="slide backward"
+                        class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+                        id="prev3">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="w-full h-full  overflow-x-hidden overflow-y-hidden">
+                        <div id="sliderInstruktur"
+                            class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[513px] h-[202px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[513px] h-[202px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[513px] h-[202px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[513px] h-[202px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[513px] h-[202px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button aria-label="slide forward"
+                        class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+                        id="next3">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
-                <div class="bg-black w-full h-[202px] ml-[0px] sm:ml-[12px]">
 
-                </div>
-            </div>
             <div class="flex justify-between mt-[70px] items-start">
                 <p class="mb-[24px]  text-[24px] font-[600] ops text-[#1f1f1f]">Penghargaan Kami</p>
                 <div class="flex items-center">
@@ -76,48 +165,203 @@
             </div>
 
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                <div class="w-full h-[214px]  bg-black">
-
-                </div>
-                <div class="w-full h-[214px] bg-black">
-
-                </div>
-                <div class="w-full h-[214px] bg-black">
-
+            <div class="flex items-center justify-center w-full h-full py-24 sm:py-8 ">
+                <div class="w-full relative flex items-center justify-center">
+                    <button aria-label="slide backward"
+                        class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+                        id="prev">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="w-full h-full  overflow-x-hidden overflow-y-hidden">
+                        <div id="sliderPenghargaan"
+                            class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-full sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[350px] h-[214px]" />
+                                <div class="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
+                                    <h2 class="lg:text-xl leading-4 text-base lg:leading-5 text-white dark:text-gray-900">
+                                        Catalog 1</h2>
+                                    <div class="flex h-full items-end pb-6">
+                                        <h3
+                                            class="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white dark:text-gray-900">
+                                            Minimal Interior</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button aria-label="slide forward"
+                        class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+                        id="next">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
             </div>
+
         </div>
 
-        <div class="bg-[#FF7E00] mb-[40px]">
+        <div class="bg-[#FF9D3C] mb-[40px]">
             <div class="mx-[30px] lg:mx-[175px]  mt-[136px] mt-[88px] mt-[0px] mt-[96px]">
                 <h1 class="ops text-[32px] font-[700] text-center text-white pt-[24px] mb-[5px]">Partner Kami</h1>
-                <p class="ops text-[20px] font-[400] mb-[39px] text-center text-white">Kami Memiliki Partner Sebagai Berikut
+                <p class="ops text-[20px] font-[400] mb-[39px] text-center text-white">Kami Memiliki Partner Sebagai
+                    Berikut
                 </p>
+                <div class="w-full relative flex items-center justify-center">
+                    <button aria-label="slide backward"
+                        class="absolute z-30 left-0 ml-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer"
+                        id="prev2">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="w-full h-full  overflow-x-hidden overflow-y-hidden">
+                        <div id="sliderPartner"
+                            class="h-full flex lg:gap-8 md:gap-6 gap-6 items-center justify-start transition ease-out duration-700">
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
 
-                <div
-                    class="grid grid-cols-2 xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-3 gap-9 mt-[22px] justify-items-center pb-[56px]">
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
+                            </div>
+                           <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
 
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+                            <div class="flex flex-shrink-0 relative w-auto sm:w-auto">
+                                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+                                    alt="black chair and white table"
+                                    class="object-cover object-center w-[165px] h-[74px]" />
+
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
-
-                    </div>
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
-
-                    </div>
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
-
-                    </div>
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
-
-                    </div>
-                    <div class="w-full h-[74px] bg-black rounded-[4px]">
-
-                    </div>
-
+                    <button aria-label="slide forward"
+                        class="absolute z-30 right-0 mr-10 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+                        id="next2">
+                        <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
+                <div class="pt-[60px]"></div>
             </div>
         </div>
     </div>
+    @include('modal.landingPageModal')
 @endsection
