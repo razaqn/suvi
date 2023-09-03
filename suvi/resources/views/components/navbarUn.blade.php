@@ -64,7 +64,7 @@
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
 
                 <ul
-                    class="flex flex-col md:items-center  md:p-0 mt-4 font-medium    md:flex-row space-x-2 md:space-x-4 md:mt-0 md:border-0 md:bg-white   ">
+                    class="flex flex-col md:items-center  md:p-0 mt-4 font-medium    md:flex-row  md:space-x-2 md:mt-0 md:border-0 md:bg-white   ">
 
 
                     <li class="mr-[0px] md:mr-[10px]">
@@ -89,12 +89,12 @@
                     </li>
                     <li>
                         <p
-                    class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] text-[12px] text-white text-[#FF7E00]">
+                    class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] text-[12px] md:mt-[0px] mt-[10px] text-[#FF7E00]">
                     Login</p>
                     </li>
                     <li>
                         <p
-                    class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] bg-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] text-[12px] text-white">
+                    class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] bg-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] md:mt-[0px] mt-[10px] text-[12px] text-white">
                     Register</p>
                     </li>
 
