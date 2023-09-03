@@ -13,7 +13,7 @@
 
 
             <div
-                class="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4  mt-[22px]  pb-[56px] px-[20%]">
+                class="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4  mt-[22px]  pb-[56px] sm:px-[5%] md:px-[10%]  xl:px-[20%] pb-[56px]">
                 <div class="w-full h-[172px] mr-[10px] bg-white rounded-[5px]">
 
                 </div>
