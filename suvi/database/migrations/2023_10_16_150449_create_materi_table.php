@@ -11,12 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('instructors', function (Blueprint $table) {
+        Schema::create('materi', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('bab_id')->constrained()->onDelete('cascade');
             $table->string('name');
-            $table->string('sub_name');
-            $table->string('image');
-            $table->text('bio');
+            $table->text('desc');
+            $table->text('video_url');
+            $table->string('file');
+            $table->string('link');
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('instructors');
+        Schema::dropIfExists('_materi');
     }
 };
