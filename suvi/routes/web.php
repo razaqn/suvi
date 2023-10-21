@@ -8,10 +8,14 @@ use App\Http\Controllers\AccountController as AccountController;
 use App\Http\Controllers\CartController as CartController;
 use App\Http\Controllers\SearchController as SearchController;
 use App\Http\Controllers\PaymentController as PaymentController;
+use App\Http\Controllers\backend\AdminController;
+
 
 Auth::routes();
 
+
 Route::get('/', [HomeController::class, 'landing'])->name('landing');
+Route::get('/admin/home', [AdminController::class, 'index'])->name('admin-home');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/search', [HomeController::class, 'search'])->name('search');
 Route::get('/course', [CourseController::class, 'index'])->name('course');
