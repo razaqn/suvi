@@ -71,7 +71,7 @@
 
 
     <div>
-        <div class="bg-[#FF7E00] mb-[64px] relative pb-[22px]">
+        <div class="bg-[#FF7E00] mb-[64px] relative pb-[22px] mt-[-48px]">
             <img class="absolute my-[-36px] mx-[-80px] top-[37px] left-[0px] z-10"
                 src="{{ asset('images/left-bub-main.png') }}" alt="">
             <img class="absolute my-[-36px] mx-[-80px] right-[80px] bottom-[35px] z-10"
