@@ -7,13 +7,17 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function landing()
     {
-        return view('frontend.landing');
+        return view('frontend.home.landing');
     }
 
-    public function home()
+    public function index()
     {
-        return view('frontend.home');
+        return view('frontend.home.index');
+    }
+    public function search()
+    {
+        return view('frontend.home.search');
     }
 }

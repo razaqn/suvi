@@ -9,7 +9,7 @@ class AccountController extends Controller
 {
     public function index()
     {
-        return view('frontend.account.page');
+        return view('frontend.account.profile');
     }
 
     public function cart()
