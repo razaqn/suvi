@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('image');
             $table->string('bg_image');
             $table->string('video');
-            $table->foreignId('mentor_id')->constrained()->onDelete('cascade');
-            $table->foreignId('type_id')->constrained()->onDelete('cascade');
+            $table->foreignId('mentors_id')->constrained()->onDelete('cascade');
+            $table->foreignId('types_id')->constrained()->onDelete('cascade');
             $table->foreignId('categories_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });

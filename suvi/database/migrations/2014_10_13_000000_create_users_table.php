@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('materi', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('bab_id')->constrained()->onDelete('cascade');
             $table->string('name');
-            $table->text('desc');
-            $table->text('video_url');
-            $table->string('file');
-            $table->string('link');
+            $table->foreignId('role_id')->constrained('roles');
+            $table->string('email')->unique();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('_materi');
+        Schema::dropIfExists('users');
     }
 };

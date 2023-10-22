@@ -17,8 +17,8 @@ class Type extends Model
         'options' => 'array',
     ];
 
-    public function service_Materi()
+    public function service_Lessons()
     {
-        return $this->hasMany(Materi::class);
+        return $this->hasMany(Lessons::class);
     }
 }

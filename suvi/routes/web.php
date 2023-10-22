@@ -15,7 +15,7 @@ Auth::routes();
 
 
 Route::get('/', [HomeController::class, 'landing'])->name('landing');
-Route::get('/admin/home', [AdminController::class, 'index'])->name('admin-home');
+Route::get('/admin', [AdminController::class, 'index'])->name('admin-home');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/search', [HomeController::class, 'search'])->name('search');
 Route::get('/course', [CourseController::class, 'index'])->name('course');
