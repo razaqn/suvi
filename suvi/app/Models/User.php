@@ -47,4 +47,20 @@ class User extends Authenticatable
     {
         return $this->hasOne(Mentor::class);
     }
+
+    public function chats()
+    {
+        return $this->hasMany(Chats::class);
+    }
+
+    public function courses()
+    {
+        return $this->hasMany(Course::class);
+    }
+
+    public function courseRatings()
+    {
+        return $this->hasMany(CourseRating::class);
+    }
+
 }
