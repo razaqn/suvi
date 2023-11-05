@@ -21,7 +21,11 @@
 
 <body class="overflow-x-hidden">
     <div id="app">
+        @guest
+        @include('components.navbarUn')
+        @else
         @include('components.navbar')
+        @endguest
         <main class="py-36">
             @yield('content')
         </main>

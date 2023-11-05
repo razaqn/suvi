@@ -10,7 +10,6 @@
 
         <form method="POST" action="{{ route('register') }}">
             @csrf
-
             <label class="text-[13px] font-[400] ops" for="email">Email</label>
             <div class="relative mt-[7px] mb-[38px]">
                 <span class="absolute inset-y-0 left-0 flex items-center">
@@ -41,7 +40,7 @@
                 @enderror
             </div>
 
-            <label class="text-[13px] font-[400] ops" for="username">Username</label>
+            <label class="text-[13px] font-[400] ops" for="name">Name</label>
             <div class="relative mt-[7px] mb-[38px]">
                 <span class="absolute inset-y-0 left-0 flex items-center">
                     <div class="p-1 ">
@@ -56,10 +55,10 @@
                         </svg>
                     </div>
                 </span>
-                <input id="username" name="username" required
-                    class="placeholder-black form-input w-full form-control @error('username') is-invalid @enderror	py-2 text-sm text-black bg-transparent text-[16px] font-[400] ops pl-10 "
+                <input id="name" name="name" required
+                    class="placeholder-black form-input w-full form-control @error('name') is-invalid @enderror	py-2 text-sm text-black bg-transparent text-[16px] font-[400] ops pl-10 "
                     placeholder="Enter your User name" autocomplete="off">
-                @error('username')
+                @error('name')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
                     </span>

@@ -1,8 +1,7 @@
-<nav class="shadow-lg bg-white border-gray-200 dark:bg-gray-900 fixed top-0 z-50 w-full">
+<nav class="shadow-lg bg-white border-gray-200 fixed top-0 z-50 w-full">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center ">
+            <a href="{{ route('landing') }}" class="flex items-center ">
                 <img src="{{ asset('images/suvi3.png') }}" class="sm:w-full w-[100px]" alt="Flowbite Logo" />
-
             </a>
             <script>
                 $('#search-mobile-icon').on('click', function() {
@@ -13,7 +12,7 @@
             <div class="flex items-center">
                 {{-- <button type="button"  id="search-mobile-icon"
                     aria-expanded="false"
-                    class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1">
+                    class="md:hidden text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 mr-1">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 20 20">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -50,7 +49,7 @@
 
                 </div>
                 <button data-collapse-toggle="navbar-search" type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="navbar-search" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -88,14 +87,14 @@
                         </div>
                     </li>
                     <li>
-                        <p
+                    <a href="{{ route('login') }}"
                     class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] text-[12px] md:mt-[0px] mt-[10px] text-[#FF7E00]">
-                    Login</p>
+                    Login</a>
                     </li>
                     <li>
-                        <p
+                    <a href="{{ route('register') }}"
                     class="inline-block  rounded-[3.5px] border-[2px] border-[#FF7E00] bg-[#FF7E00] xl:py-[10px] xl:px-[33px] py-[8px] px-[27px] ops font-[700] xl:text-[14px] md:mt-[0px] mt-[10px] text-[12px] text-white">
-                    Register</p>
+                    Register</a>
                     </li>
 
                 </ul>
